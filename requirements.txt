@@ -7,7 +7,7 @@ langchain-core
 # API AND FRONTEND
 fastapi
 pydantic
-uvicorn 
+uvicorn
 streamlit 
 python-dotenv 
 
