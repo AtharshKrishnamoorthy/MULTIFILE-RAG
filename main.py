@@ -28,7 +28,10 @@ os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 os.environ["LANGCHAIN_PROJECT"] = "AI-COURSE-RAG"
 
 # Load models once
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2",model_kwargs={"device": "cpu"})
+embeddings = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/paraphrase-MiniLM-L3-v2",
+    model_kwargs={"device": "cpu"}
+)
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.2)
 
 
