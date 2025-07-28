@@ -5,9 +5,9 @@ langchain-google-genai
 langchain-core 
 
 # API AND FRONTEND
-fastapi==0.104.1
-pydantic==2.5.2
-uvicorn==0.24.0
+fastapi
+pydantic
+uvicorn
 streamlit 
 python-dotenv
 
