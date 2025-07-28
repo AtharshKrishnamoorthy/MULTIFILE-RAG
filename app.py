@@ -4,7 +4,7 @@ import time
 import os
 
 # --- API Endpoints ---
-API_URL = "http://localhost:8000"
+API_URL = "https://rag-api-latest-8ayt.onrender.com"
 UPLOAD_ENDPOINT = f"{API_URL}/upload-files"
 QUERY_ENDPOINT = f"{API_URL}/rag-query"
 DELETE_ENDPOINT = f"{API_URL}/delete-store"
